@@ -18,7 +18,7 @@ const Movie = (props) => {
                 console.log(res)
             })
             .catch(err=>{
-                console.log(erR)
+                console.log(err)
             })
     }
     useEffect(()=>{
